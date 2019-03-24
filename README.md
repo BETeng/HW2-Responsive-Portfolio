@@ -1,2 +1,4 @@
 # HW2-Responsive-Portfolio
-HW2 using HW1 layout
+*incompolete* still have some work to do aligning header at different margins. 
+index text is off screen
+not centered well at lower resolutions
