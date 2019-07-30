@@ -10,36 +10,29 @@
 </head>
 
 <body>
-    <header>
-        <div class="containerheader">
-          <div id="nametag">
-            <h1 id="namebox">Brian Teng</h1>
-          </div>
-          <ul>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="index.html">About</a></li>
-    
-          </ul>
-        </div>
-        </div>
-      </header>
-      <section>
-        <div class="containercontent">
-<h2>Contact</h2>
-  <form>
-  Name:<br>
-  <input type="text" name="fullname" placeholder="John Smitherino">
-  <br>
-  Email:<br>
-  <input type="text" name="email" placeholder="Enter Email">
-  <br>
-  Message:<br>
-  <textarea id="textarea" cols="30" rows="10"></textarea>
-  <br>
-  <input type="submit" name ="submit"id="submit">
-</form>
-<footer>&copy Teng 2019</footer>
+  <header>
+    <div>
+      <h1>Brian Teng</h1>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <article>
+    <h2>Contact</h2>
+    <form id="contactform">
+        <div>Name</div>
+        <div><input class="inputtext" type="text" name="Name" id="name"></div>
+        <div>Email</div>
+        <div><input class="inputtext" type="text" name="Email" id="email"></div>
+        <div>Message</div>
+        <div><textarea name="message" form="contactform"></textarea></div>
+        <input class="submitbutton" type="submit" value="Submit">
+    </form>
+  </article>
+  <footer class="footer">&copy Teng 2019</footer>
 </body>
 
 </html>
