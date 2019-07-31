@@ -3,8 +3,8 @@
   background-color: #ffffff;
   color: #777777;
   font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
+
 
 html, body {
   margin: 0 auto;
@@ -156,5 +156,33 @@ textarea {
       width: 100%;
       height: inherit;
   }
-  
+}
+
+/* portfolio page */
+article div {
+  display: flex;
+  flex-wrap: wrap;
+}
+article section {
+  position: relative;
+  margin: 0px 20px 20px 0px;
+}
+
+section h4 {
+  margin: 0px;
+  color: rgb(105, 15, 83);
+  background-color: #cfc319;
+  width: 250px;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  text-decoration: none; 
+  opacity: 0.9;
+}
+
+section img {
+  width: 250px;
+  height: 180px;
 }
