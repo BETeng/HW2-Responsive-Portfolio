@@ -4,7 +4,7 @@
 A basic site with responsive design and navbar.
 
 ### Technologies Used:
-*CSS
-*HTML
+* CSS
+* HTML
 
 
